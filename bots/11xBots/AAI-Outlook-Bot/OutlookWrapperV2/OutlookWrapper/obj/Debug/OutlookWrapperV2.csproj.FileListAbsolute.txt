@@ -1,0 +1,33 @@
+C:\Sagar\CODE\OutlookMbot-BotStore\OutlookWrapperV2\OutlookWrapper\bin\Debug\OutlookWrapperV2.dll
+C:\Sagar\CODE\OutlookMbot-BotStore\OutlookWrapperV2\OutlookWrapper\bin\Debug\OutlookWrapperV2.pdb
+C:\Sagar\CODE\OutlookMbot-BotStore\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.csproj.ResolveComReference.cache
+C:\Sagar\CODE\OutlookMbot-BotStore\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.csproj.CoreCompileInputs.cache
+C:\Sagar\CODE\OutlookMbot-BotStore\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.dll
+C:\Sagar\CODE\OutlookMbot-BotStore\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.pdb
+C:\Users\satyam.singh\Documents\OutlookWrapperV2\OutlookWrapper\bin\Debug\OutlookWrapperV2.dll
+C:\Users\satyam.singh\Documents\OutlookWrapperV2\OutlookWrapper\bin\Debug\OutlookWrapperV2.pdb
+C:\Users\satyam.singh\Documents\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.csprojAssemblyReference.cache
+C:\Users\satyam.singh\Documents\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.csproj.ResolveComReference.cache
+C:\Users\satyam.singh\Documents\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.csproj.CoreCompileInputs.cache
+C:\Users\satyam.singh\Documents\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.dll
+C:\Users\satyam.singh\Documents\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.pdb
+D:\Ankan.mondal\My Desktop\OutlookWrapperV2\OutlookWrapper\bin\Debug\OutlookWrapperV2.dll
+D:\Ankan.mondal\My Desktop\OutlookWrapperV2\OutlookWrapper\bin\Debug\OutlookWrapperV2.pdb
+D:\Ankan.mondal\My Desktop\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.csproj.ResolveComReference.cache
+D:\Ankan.mondal\My Desktop\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.csproj.CoreCompileInputs.cache
+D:\Ankan.mondal\My Desktop\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.dll
+D:\Ankan.mondal\My Desktop\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.pdb
+D:\Ankan.mondal\My Desktop\Tasks\BOT BUNDLES REVISE DOCS\ALL Source Code Reviews\PerformVarious Email Operations\OutlookWrapperV2\OutlookWrapper\bin\Debug\OutlookWrapperV2.dll
+D:\Ankan.mondal\My Desktop\Tasks\BOT BUNDLES REVISE DOCS\ALL Source Code Reviews\PerformVarious Email Operations\OutlookWrapperV2\OutlookWrapper\bin\Debug\OutlookWrapperV2.pdb
+D:\Ankan.mondal\My Desktop\Tasks\BOT BUNDLES REVISE DOCS\ALL Source Code Reviews\PerformVarious Email Operations\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.csproj.ResolveComReference.cache
+D:\Ankan.mondal\My Desktop\Tasks\BOT BUNDLES REVISE DOCS\ALL Source Code Reviews\PerformVarious Email Operations\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.csproj.CoreCompileInputs.cache
+D:\Ankan.mondal\My Desktop\Tasks\BOT BUNDLES REVISE DOCS\ALL Source Code Reviews\PerformVarious Email Operations\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.dll
+D:\Ankan.mondal\My Desktop\Tasks\BOT BUNDLES REVISE DOCS\ALL Source Code Reviews\PerformVarious Email Operations\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.pdb
+D:\Ankan.mondal\My Desktop\Tasks\BOT BUNDLES REVISE DOCS\ALL Source Code Reviews\PerformVarious Email Operations\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.csprojAssemblyReference.cache
+D:\Ankan.mondal\My Desktop\GH\bots\AAI Outlook Bot\OutlookWrapperV2\OutlookWrapper\bin\Debug\OutlookWrapperV2.dll
+D:\Ankan.mondal\My Desktop\GH\bots\AAI Outlook Bot\OutlookWrapperV2\OutlookWrapper\bin\Debug\OutlookWrapperV2.pdb
+D:\Ankan.mondal\My Desktop\GH\bots\AAI Outlook Bot\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.csproj.ResolveComReference.cache
+D:\Ankan.mondal\My Desktop\GH\bots\AAI Outlook Bot\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.csproj.CoreCompileInputs.cache
+D:\Ankan.mondal\My Desktop\GH\bots\AAI Outlook Bot\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.dll
+D:\Ankan.mondal\My Desktop\GH\bots\AAI Outlook Bot\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.pdb
+D:\Ankan.Mondal\My Desktop\GH\bots\AAI Outlook Bot\OutlookWrapperV2\OutlookWrapper\obj\Debug\OutlookWrapperV2.csprojAssemblyReference.cache
