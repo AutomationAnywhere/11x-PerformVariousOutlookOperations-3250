@@ -15,7 +15,7 @@ The following are a list of guidelines and best practices for contributing chang
 
 ### Code of Conduct
 
-Participants in Automation Anywhere free source code projects are expected to adhere to a Code of Conduct.  Please read the full text (insert hyperlink) so you understand the boundaries of participation in Automation Anywhere free source code projects.  
+Participants in Automation Anywhere free source code projects are expected to adhere to a Code of Conduct.  Please read the full text [here](https://github.com/AutomationAnywhere/AAI-Botstore-Open-Source-Bots/blob/master/AAI%20Contributor%20Covenant%20Code%20of%20Conduct.md) so you understand the boundaries of participation in Automation Anywhere free source code projects.  
 
 ### AAI Free Source Code License
 
