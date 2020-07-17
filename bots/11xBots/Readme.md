@@ -1,1 +1,3 @@
-This folder is for 11.x bots
+# Folder Description
+
+* Each Folder represents individual bot
