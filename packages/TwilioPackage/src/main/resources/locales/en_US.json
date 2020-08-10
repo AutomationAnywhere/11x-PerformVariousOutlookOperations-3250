@@ -1,0 +1,46 @@
+{
+	"label": "Twilio",
+	"description": "Send SMS and make voice calls using Twilio API",
+
+	"SMS.name": "Send SMS from Twilio",
+	"SMS.label": "Send SMS",
+	"SMS.description": "Sends SMS using Twilio API",
+	"SMS.node_label": "Sends SMS using Twilio API",
+	"SMS.return_label": "Assign the output to variable as type String",
+
+	"SMS.SID.label": "SID",
+	"SMS.SID.description": "Auth SID",
+
+	"SMS.AuthToken.label": "Auth Token",
+	"SMS.AuthToken.description": "Auth Token",
+
+	"SMS.SenderNumber.label": "Sender Number",
+	"SMS.SenderNumber.description": "Format this number with a '+' and a country code, e.g., +16175551212, Reference: https://www.twilio.com/docs/sms/send-messages#from",
+
+	"SMS.RecipientNumber.label": "Recipient Number",
+	"SMS.RecipientNumber.description": "Format this number with a '+' and a country code, e.g., +16175551212, Reference: https://www.twilio.com/docs/sms/send-messages#to",
+
+	"SMS.MessageBody.label": "Message Body",
+	"SMS.MessageBody.description": "Reference: https://www.twilio.com/docs/sms/send-messages#body",
+
+	"MakeCall.name": "Place a call from Twilio",
+	"MakeCall.label": "Make a Call",
+	"MakeCall.description": "Outgoing calls using Twilio Account",
+	"MakeCall.node_label": "Outgoing calls using Twilio",
+	"MakeCall.return_label": "Assign the output to variable as type String",
+
+	"MakeCall.SID.label": "SID",
+	"MakeCall.SID.description": "Auth SID",
+
+	"MakeCall.AuthToken.label": "Auth Token",
+	"MakeCall.AuthToken.description": "Auth Token",
+
+	"MakeCall.SenderNumber.label": "Sender Number",
+	"MakeCall.SenderNumber.description": "Format this number with a '+' and a country code, e.g., +16175551212, Reference: https://www.twilio.com/docs/voice/make-calls#specify-the-caller-id",
+
+	"MakeCall.RecipientNumber.label": "Recipient Number",
+	"MakeCall.RecipientNumber.description": "Format this number with a '+' and a country code, e.g., +16175551212, Reference: https://www.twilio.com/docs/voice/make-calls#specify-the-calls-recipient",
+
+	"MakeCall.CallMessage.label": "Message Body",
+	"MakeCall.CallMessage.description": "Sample URL to be used: https://demo.twilio.com/docs/voice.xml, Read more about the format here: https://www.twilio.com/docs/voice/make-calls#tell-twilio-what-to-do-on-the-call"
+}

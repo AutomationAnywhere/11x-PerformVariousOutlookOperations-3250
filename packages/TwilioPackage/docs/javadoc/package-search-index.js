@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.automationanywhere.commandsdk.annotations"},{"l":"com.automationanywhere.commandsdk.annotations.rules"},{"l":"com.automationanywhere.commandsdk.model"}]

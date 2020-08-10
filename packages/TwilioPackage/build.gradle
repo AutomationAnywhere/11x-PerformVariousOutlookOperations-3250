@@ -1,0 +1,103 @@
+buildscript {
+	repositories {
+		mavenCentral()
+		jcenter()
+		maven {
+			url "https://plugins.gradle.org/m2/"
+		}
+		flatDir {
+			dirs 'libs'
+		}
+		dependencies {
+			classpath name: 'shadow', version: '2+'
+			classpath name:'command-plugin', version: '1+'
+			classpath "net.ltgt.gradle:gradle-apt-plugin:0.20"
+		}
+	}
+}
+
+plugins {
+	id 'java'
+}
+
+configure(allprojects){
+	
+	apply plugin: 'com.github.johnrengelman.shadow'
+	apply plugin: "com.automationanywhere.command-codegen"
+	
+	ext {
+		groupName = 'com.automationanywhere'
+		testNgVersion = '6.14.3'
+		loggerVersion = '2.10.0'
+		jnaVersion = '5.3.1'	
+		version '2.0.0'
+	}
+	group "$groupName"
+
+	sourceCompatibility = JavaVersion.VERSION_11
+
+	compileJava.options.encoding = 'UTF-8'
+	compileTestJava.options.encoding = 'UTF-8'
+	
+	repositories {
+		mavenCentral()
+		jcenter()
+		maven {
+			url "https://plugins.gradle.org/m2/"
+		}
+		flatDir {
+			dirs 'libs'
+		}
+	}
+	
+	configurations {
+		apt
+	}
+	
+	compileJava {
+		options.annotationProcessorPath = configurations.apt
+		
+		dependsOn processResources
+
+	}
+	
+	packageJson{
+		artifactName = project.name
+		group = "$groupName"
+	}
+	
+	jar.dependsOn commandCodeGen
+	
+	shadowJar {
+		baseName = project.name
+		classifier = null
+		mergeServiceFiles('META-INF/spring.*')
+		mergeServiceFiles('META-INF/services/java.sql.Driver')
+		zip64 = true
+		exclude 'META-INF/MANIFEST.MF'
+		exclude 'META-INF/*.SF'
+		exclude 'META-INF/*.DSA'
+		exclude 'META-INF/*.RSA'
+		rename '^OABWrapper.*\\.zip$', 'OABWrapper.zip'
+	}
+
+	
+	dependencies {
+		compileOnly name: 'command-annotations', version: '1+'
+		compileOnly name: 'bot-runtime', version: '1+'
+		compileOnly name: 'bot-api', version: '1+'
+		compileOnly name: 'common-security', version: '1+'
+		implementation name: 'i18n-api', version: '1+'
+		apt name: 'command-processor', version: '1+'
+		compileOnly group: 'org.apache.logging.log4j', name: 'log4j-core', version: "$loggerVersion"
+		testImplementation "org.testng:testng:$testNgVersion"
+		testImplementation name: 'bot-runtime', version: '1+'
+		testImplementation name: 'bot-api', version: '1+'
+		implementation group: 'net.java.dev.jna', name: 'jna-platform', version: "$jnaVersion"
+		testCompile group: 'junit', name: 'junit', version: '4.12'
+		implementation group: "com.twilio.sdk", name: "twilio", version: "7.52.0"
+	}
+	
+	
+}
+

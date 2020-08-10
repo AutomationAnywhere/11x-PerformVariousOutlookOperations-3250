@@ -1,0 +1,149 @@
+{
+    "name": "Twilio",
+    "label": "[[label]]",
+    "description": "[[description]]",
+    "group": "com.automationanywhere",
+    "artifactName": "Twilio",
+    "packageVersion": "2.0.0-20200702-194043",
+    "codeVersion": "2.0.0-20200702-194043",
+    "commands": [
+        {
+            "name": "[[MakeCall.name]]",
+            "label": "[[MakeCall.label]]",
+            "description": "[[MakeCall.description]]",
+            "nodeLabel": "[[MakeCall.node_label]]",
+            "mainClass": "com.automationanywhere.botcommand.twiliomessenger.commands.MakeCallCommand",
+            "icon": "twilio.svg",
+            "returnType": "STRING",
+            "returnSubtype": "UNDEFINED",
+            "returnLabel": "[[MakeCall.return_label]]",
+            "returnRequired": true,
+            "attributes": [
+                {
+                    "name": "authSID",
+                    "label": "[[MakeCall.SID.label]]",
+                    "description": "[[MakeCall.SID.description]]",
+                    "type": "CREDENTIAL",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                },
+                {
+                    "name": "authToken",
+                    "label": "[[MakeCall.AuthToken.label]]",
+                    "description": "[[MakeCall.AuthToken.description]]",
+                    "type": "CREDENTIAL",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                },
+                {
+                    "name": "senderNumber",
+                    "label": "[[MakeCall.SenderNumber.label]]",
+                    "description": "[[MakeCall.SenderNumber.description]]",
+                    "type": "TEXT",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                },
+                {
+                    "name": "recipientNumber",
+                    "label": "[[MakeCall.RecipientNumber.label]]",
+                    "description": "[[MakeCall.RecipientNumber.description]]",
+                    "type": "TEXT",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                },
+                {
+                    "name": "messageBody",
+                    "label": "[[MakeCall.CallMessage.label]]",
+                    "description": "[[MakeCall.CallMessage.description]]",
+                    "type": "TEXT",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "[[SMS.name]]",
+            "label": "[[SMS.label]]",
+            "description": "[[SMS.description]]",
+            "nodeLabel": "[[SMS.node_label]]",
+            "mainClass": "com.automationanywhere.botcommand.twiliomessenger.commands.SMSCommand",
+            "icon": "twilio.svg",
+            "returnType": "STRING",
+            "returnSubtype": "UNDEFINED",
+            "returnLabel": "[[SMS.return_label]]",
+            "returnRequired": true,
+            "attributes": [
+                {
+                    "name": "authSID",
+                    "label": "[[SMS.SID.label]]",
+                    "description": "[[SMS.SID.description]]",
+                    "type": "CREDENTIAL",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                },
+                {
+                    "name": "authToken",
+                    "label": "[[SMS.AuthToken.label]]",
+                    "description": "[[SMS.AuthToken.description]]",
+                    "type": "CREDENTIAL",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                },
+                {
+                    "name": "senderNumber",
+                    "label": "[[SMS.SenderNumber.label]]",
+                    "description": "[[SMS.SenderNumber.description]]",
+                    "type": "TEXT",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                },
+                {
+                    "name": "recipientNumber",
+                    "label": "[[SMS.RecipientNumber.label]]",
+                    "description": "[[SMS.RecipientNumber.description]]",
+                    "type": "TEXT",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                },
+                {
+                    "name": "messageBody",
+                    "label": "[[SMS.MessageBody.label]]",
+                    "description": "[[SMS.MessageBody.description]]",
+                    "type": "TEXT",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
